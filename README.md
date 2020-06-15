@@ -31,3 +31,10 @@ OR launch from IDE
 
 Then visit http://localhost:8080
 
+ 
+Create Todo   
+![](images/CreateTodo.png)
+
+Todo Items
+![](images/TodoList.png)
+
