@@ -37,11 +37,11 @@
      <div class="col">${todo.completed}</div>
      <div class="col">
 
-     <a  class="btn-warning" href="${pageContext.request.contextPath}/todo/edit/${todo.id}">Edit</a>
+     <a  class="btn-success" href="${pageContext.request.contextPath}/todo/edit/${todo.id}">Edit</a>
                  &nbsp;
-                 <a class="btn-primary" href="${pageContext.request.contextPath}/todo/complete/${todo.id}">Complete</a>
+                 <a class="btn-danger" href="${pageContext.request.contextPath}/todo/complete/${todo.id}">Complete</a>
                  &nbsp;
-                 <a  class="btn-danger" href="${pageContext.request.contextPath}/todo/delete/${todo.id}">Delete</a>
+                 <a  class="btn-warning" href="${pageContext.request.contextPath}/todo/delete/${todo.id}">Delete</a>
 
      </div>
      <div class="col">${todo.type.name}</div>
